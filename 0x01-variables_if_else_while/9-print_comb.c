@@ -1,21 +1,26 @@
-  #include <stdio.h>
-  /**
-  *main - start of program
-  *Return: 0is a good thing
-  */
-  int main(void)
-  {
-          int d=48;
-	  int b=44;
-          while(d < 58)
+#include <stdio.h>
+/**
+*main - start of program
+*Return: 0is a good thing
+*/
+int main(void)
+{
+	int d=48;
+	int b=44;
+	int s=32;
+
+	while(d < 58)
         {
-                putchar(d);
+		putchar(d);
 		d++;
-		if(d != 58) 
+		if(d != 58)
+		{
 			putchar(b);
-	        else break;
+			putchar(s);
+		}
+		else break;
 	}
-	  putchar('\n');
-          return (0);
+	putchar('\n');
+	return (0);
  }
 

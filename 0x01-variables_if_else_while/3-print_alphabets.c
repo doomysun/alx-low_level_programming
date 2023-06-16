@@ -2,17 +2,18 @@
 /**
   *main - starting point
   *Return: success is 0
-  */
+*/
 int main(void)
 {
-	char o= 'A';
-	char i= 'a';
-	while(i <= 'z')
+	char o = 'A';
+	char i = 'a';
+
+	while (i <= 'z')
 	{
 		putchar(i);
 		i++;
 	}
-	while(o <= 'Z')
+	while (o <= 'Z')
 	{
 		putchar(o);
 		o++;
