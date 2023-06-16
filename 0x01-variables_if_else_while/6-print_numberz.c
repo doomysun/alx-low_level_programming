@@ -1,8 +1,8 @@
 #include <stdio.h>
-  /**
-  *main - start of program
-  *Return: 0is a good thing
-  */
+/**
+*main - entry point 
+*Return: 0is a good thing
+*/
 int main(void)
 {
 	int d = 0;
