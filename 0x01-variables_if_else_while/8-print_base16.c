@@ -1,8 +1,8 @@
 #include <stdio.h>
-  /**
-  *main - start of program
-  *Return: 0is a good thing
-  */
+/**
+*main - start of program
+*Return: 0is a good thing
+*/
 int main(void)
 {
 	int d;
@@ -13,11 +13,11 @@ int main(void)
 		putchar(d + 48);
 		d++;
 	}
-	do{
+	do {
 		putchar(l);
 		l++;
 	} while (l <= 102);
 
 	putchar('\n');
 	return (0);
-  }
+}

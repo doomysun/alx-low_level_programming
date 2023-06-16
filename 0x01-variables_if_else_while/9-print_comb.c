@@ -5,22 +5,23 @@
 */
 int main(void)
 {
-	int d=48;
-	int b=44;
-	int s=32;
+	int d = 48;
+	int b = 44;
+	int s = 32;
 
-	while(d < 58)
-        {
+	while (d < 58)
+	{
 		putchar(d);
 		d++;
-		if(d != 58)
+		if (d != 58)
 		{
 			putchar(b);
 			putchar(s);
 		}
-		else break;
+		else
+			break;
 	}
 	putchar('\n');
 	return (0);
- }
+}
 
