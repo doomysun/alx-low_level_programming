@@ -1,8 +1,8 @@
 #include <stdio.h>
-  /**
-  *main - beginning point
-  *Return: 0 is a good thing
-  */
+/**
+*main - starting point
+*Return: 0 is a good thing
+*/
 int main(void)
 {
 	char d;
