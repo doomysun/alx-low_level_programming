@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
 
 	while (d < 10)
 	{
-		for (e = 97; e <= 122 e++)
+		for (e = 97; e <= 122; e++)
 			_putchar(e);
 		_putchar('\n');
 		d++;

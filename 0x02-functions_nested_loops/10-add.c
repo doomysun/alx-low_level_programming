@@ -1,6 +1,8 @@
 #include "main.h"
 /**
-* add - start of the program
+* add - adds two numbers
+* @a: first argument
+* @b: second argument
 * Description: adds two integers and returns the result
 * Return: value of function
 */
