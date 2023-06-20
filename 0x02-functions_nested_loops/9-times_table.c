@@ -1,8 +1,7 @@
 #include "main.h"
 /**
-*main - start of the program
-*Description: will print the 9 times table
-*Return: none
+* times_table - start of the program
+* Description: will print the 9 times table
 */
 void times_table(void)
 {
@@ -17,22 +16,22 @@ void times_table(void)
 			{
 				i = m % 10;
 				e = (m - i) / 10;
-				putchar(',');
-				putchar(' ');
-				putchar(e + '0');
-				putchar(i + '0');
+				_putchar(',');
+				_putchar(' ');
+				_putchar(e + '0');
+				_putchar(i + '0');
 			}
 			else
 			{
 				if (u != 0)
 				{
-				putchar(',');
-				putchar(' ');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
 				}
-			putchar(m + '0');
+			_putchar(m + '0');
 			}
 		}
-			putchar('\n');
+			_putchar('\n');
 	}
 }

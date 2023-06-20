@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*main - start of the program
-*Description: will print every minute of the day of Jack Bauer from 00:00 to 23:59
-Return: none
+* jack_bauer - start of the program
+* Description: will print every minute of the day
+* of Jack Bauer from 00:00 to 23:59
 */
 void jack_bauer(void)
 {
