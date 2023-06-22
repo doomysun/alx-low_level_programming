@@ -5,7 +5,6 @@
 * @size: size of the triangle
 *
 * Description: a function that prints a triangle followed by a new line
-* uses the character # to print the triangle
 * Return: empty
 */
 
