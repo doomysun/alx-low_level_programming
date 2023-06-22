@@ -6,7 +6,7 @@
 *
 * Description: a function that prints a triangle followed by a new line
 * uses the character # to print the triangle
-* Return:
+* Return: empty
 */
 
 void print_triangle(int size)
@@ -23,7 +23,7 @@ void print_triangle(int size)
 		{
 			for (n = size - d; n > 1; n--) 
 			{
-					_putchar(32);
+				_putchar(32);
 			}
 			for (m = 0; m <= d; m++)
 			{
