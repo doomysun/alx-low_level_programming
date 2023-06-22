@@ -13,13 +13,13 @@ int main(void)
 
 	for (d = 1; d <= 100; d++)
 	{
-		if (d % 3 == 0 && d % 5 == 0)
+		if ((d % 3 == 0) && (d % 5 == 0))
 		{
 			printf("FizzBuzz ");
 		}
 		else if (d % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz" );
 		}
 		else if (d % 5 == 0)
 		{
@@ -28,7 +28,7 @@ int main(void)
 		else
 		{
 			printf("%d ", d);
-		}	
+		}
 	}
 	return (0);
 }
