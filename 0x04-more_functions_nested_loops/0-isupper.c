@@ -8,9 +8,9 @@
 * Return: 1 if is uppercase and 0 otherwise
 */
 
-int _isupper(int c)
+int _isupper(int d)
 {
-	if ((c >= 65) && (c <= 90))
+	if ((d >= 65) && (d <= 90))
 	{
 		return (1);
 	}
