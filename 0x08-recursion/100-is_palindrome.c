@@ -38,3 +38,17 @@ int pal(char *s, int i, int len)
 		return (pal(s, i + 1, len));
 	}
 }
+/**
+ * is_palindrome - check if the string is a palindrome ex ala.
+ * @s: original string
+ *
+ *
+ * Return: 1 if is alindrome otherwise 0.
+ */
+int is_palindrome(char *s)
+{
+	if (pal(s, 0, s_len(s)) == 1)
+		return (1);
+	else
+		return (0);
+}
